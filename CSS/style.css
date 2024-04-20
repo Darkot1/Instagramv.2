@@ -1,0 +1,96 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.container_cel{
+    max-width: 735px;
+    width: 100vh;
+    display: flex;  
+    flex-direction: column;
+}
+
+/*BARRA DE NOMBRE Y RETURN*/
+.return{
+    height: 5.5vh;
+    display: flex;
+    width: 100%;
+    padding: 0 16px;
+    align-items: center;
+    background-color: #000;
+
+}
+
+.name_return{
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   margin: 0;
+   font-size: 16px;
+   
+   color: #fff;
+}
+
+.button_return a{
+    text-decoration: none;
+    color: #fff;
+    
+}
+
+.button_return svg{
+    transform: scale(1.5);
+}
+
+
+/*HEADER NOMBRE/FOTO Y DESCRIPCION*/
+.header_perfil{
+    background-color: blueviolet;
+    max-width: 100%;
+    margin: 16px 16px 24px 16px;
+    height: 77px;   
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.foto{
+    background-color: aqua;
+    height: 100%;
+    width: 10%;
+}
+.name{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.button{
+    height: 50%;
+    width: 100%;
+}
+
+/*Descripcion del perfil*/
+.description{
+    padding: 0 16px 24px 16px;
+    display: flex;
+    flex-direction: column;
+}
+
+/*BARRA DE SEGUIDORES*/
+
+.seguidores{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 12px 0;
+    margin: 0;
+}
+
+.seguidores li{
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    align-items: center;
+}
